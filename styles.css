@@ -1,0 +1,77 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Ubuntu');
+/*end fonts*/
+
+body {
+  background-color: #121212;
+  color: white;
+  overflow-y: hidden;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.master {
+  padding: 2vw 3vw 3vh 3vw;
+  background-color: #202020;
+  position: absolute;
+  left: 20vw;
+  width: 60vw;
+  height: 100vh;
+  border: solid;
+  border-width: .3vw;
+  border-color: #151515;
+}
+
+#name {
+  text-align: center;
+  font-size: 9.5vh;
+}
+
+#title{
+font-size: 7vh;
+font-style: italic;
+font-family: 'Just Another Hand', cursive;
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+text-align: center;
+width: 15vw;
+margin-left: 20vw;
+}
+
+#about-me {
+  margin-top: 3vh;
+  position: absolute;
+  left: 5vw;
+  width: 50vw;
+  text-align: justify;
+}
+
+#about-me-header {
+  font-size: 3vh;
+}
+
+#hidden{
+  display: none;
+}
+
+.showclass{
+  display: show;
+}
+
+.bounce-in {
+  animation: bounce-in 1s;
+}
+
+
+@-webkit-keyframes bounce-in {
+  from{
+    position: absolute;
+    top: 20vh;
+    opacity: 0%;
+  }
+  to {
+    position: absolute;
+    top: 29vh;
+    opacity: 100%;
+  }
+}
