@@ -29,14 +29,27 @@ body {
 }
 
 #title{
+position: relative;
+left: 20vw;
 font-size: 7vh;
 font-style: italic;
 font-family: 'Just Another Hand', cursive;
 color: #fff;
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
-text-align: center;
 width: 15vw;
-margin-left: 20vw;
+}
+
+hr {
+  display:block;
+  border:none;
+  color:black;
+  height:1px;
+  background:white;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(black));
+  position: relative;
+  top: 2vh;
+  left: -2.5vw;
+  width: 110%;
 }
 
 #about-me {
@@ -68,22 +81,11 @@ margin-left: 20vw;
   margin-top: 7vh;
 }
 
-.experience {
-  border: solid;
-  border-color: white;
-}
-
-.work {
-  border: solid;
-  border-color: white;
-}
-
-.company !important {
-  list-style-type: disc;
+.current {
+  margin-top: 7vh;
 }
 
 /*animations*/
-
 @-webkit-keyframes bounce-in {
   from{
     opacity: 0;
