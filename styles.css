@@ -64,7 +64,7 @@ hr {
   font-size: 3vh;
 }
 
-#hidden{
+#menu{
   display: none;
 }
 
@@ -77,12 +77,27 @@ hr {
 }
 
 .portfolio {
-  /*position: absolute;*/
   margin-top: 7vh;
 }
 
 .current {
   margin-top: 7vh;
+}
+
+.port-images {
+  width: 40px;
+}
+
+img {
+  height: 27vh;
+}
+
+.work {
+  overflow-y: scroll;
+}
+
+.menu-nav {
+  display: inline;
 }
 
 /*animations*/
