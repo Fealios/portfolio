@@ -93,6 +93,7 @@ img {
 }
 
 .work {
+  overflow-x: hidden;
   overflow-y: scroll;
 }
 
